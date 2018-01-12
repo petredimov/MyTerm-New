@@ -1,0 +1,7 @@
+﻿
+@{
+    ViewBag.Title = "CreateLine";
+}
+
+<h2>CreateLine</h2>
+

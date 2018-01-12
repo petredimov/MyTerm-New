@@ -1,0 +1,63 @@
+﻿
+@{
+    ViewBag.Title = "CreateCompany";
+}
+
+<h2>CreateCompany</h2>
+
+<div ng-app="app" ng-controller="CompanyController as vm">
+    <div class="row">
+        <div class="form-group">
+            <label for="town">Town</label>
+            <input type="text" ng-model="vm.company.Town" class="form-control" />
+        </div>
+
+        <div class="form-group">
+            <label for="minicipality">Minicipality</label>
+            <input type="text" ng-model="vm.company.Minicipality" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label for="areacode">Area code</label>
+            <input type="text" ng-model="vm.company.AreaCode" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label for="phonenumber">Phone number</label>
+            <input type="text" ng-model="vm.company.PhoneNumber" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label for="country">Country</label>
+            <select id="country" class="form-control" ng-model="vm.company.Country" ng-options="item.Name for item in vm.countries track by item.Id">
+            </select>
+
+            <input type="text" ng-model="vm.company.Country" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label for="address">Address</label>
+            <input type="text" ng-model="vm.company.Address" class="form-control" />
+        </div>
+
+        <div class="form-group">
+            <label for="edb">EDB</label>
+            <input type="text" ng-model="vm.company.EDB" class="form-control" />
+        </div>
+        <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" ng-model="vm.company.Name" class="form-control" />
+        </div>
+
+        <div class="form-group">
+            <label for="faxnumber">Fax Number</label>
+            <input type="text" ng-model="vm.company.FaxNumber" class="form-control" />
+        </div>
+
+        <div class="form-group">
+            <button class="btn btn-sm btn-primary" ng-click="vm.insertCompany()">
+                <i class="glyphicon glyphicon-share-alt"></i>
+                &nbsp; Create company
+            </button>
+        </div>
+    </div>
+</div>
+
+
+<script src="~/app/company.controller.js"></script>

@@ -1,0 +1,84 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.6
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Logger", "Logger\Logger.csproj", "{F42A49D0-E081-4479-A62A-64E34287C585}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataContext", "DataContext\DataContext.csproj", "{CDF9D04D-0BFB-47E6-9ABB-11DCA173ACD0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyTermMVC", "MyTermMVC\MyTermMVC.csproj", "{A5859E0E-3C08-4045-B8DC-B3FB13655B00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataServices", "DataServices\DataServices.csproj", "{BFA6303F-D0A2-40FF-9650-DA0479DA0DB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyTerm.Api", "MyTerm.Api\MyTerm.Api.csproj", "{D1E10036-79A6-47FE-BB6D-8A4481B4128A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "data", "data", "{D9048FC9-0C11-4DBF-88CC-F7BBAE78A35E}"
+	ProjectSection(SolutionItems) = preProject
+		geodata.xml = geodata.xml
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestConsole", "TestConsole\TestConsole.csproj", "{14E31072-3D43-478F-BADC-43BD85CB0FA6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F42A49D0-E081-4479-A62A-64E34287C585}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F42A49D0-E081-4479-A62A-64E34287C585}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F42A49D0-E081-4479-A62A-64E34287C585}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F42A49D0-E081-4479-A62A-64E34287C585}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDF9D04D-0BFB-47E6-9ABB-11DCA173ACD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDF9D04D-0BFB-47E6-9ABB-11DCA173ACD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDF9D04D-0BFB-47E6-9ABB-11DCA173ACD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDF9D04D-0BFB-47E6-9ABB-11DCA173ACD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A5859E0E-3C08-4045-B8DC-B3FB13655B00}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A5859E0E-3C08-4045-B8DC-B3FB13655B00}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A5859E0E-3C08-4045-B8DC-B3FB13655B00}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A5859E0E-3C08-4045-B8DC-B3FB13655B00}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFA6303F-D0A2-40FF-9650-DA0479DA0DB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFA6303F-D0A2-40FF-9650-DA0479DA0DB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFA6303F-D0A2-40FF-9650-DA0479DA0DB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFA6303F-D0A2-40FF-9650-DA0479DA0DB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D1E10036-79A6-47FE-BB6D-8A4481B4128A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D1E10036-79A6-47FE-BB6D-8A4481B4128A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D1E10036-79A6-47FE-BB6D-8A4481B4128A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D1E10036-79A6-47FE-BB6D-8A4481B4128A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14E31072-3D43-478F-BADC-43BD85CB0FA6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14E31072-3D43-478F-BADC-43BD85CB0FA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14E31072-3D43-478F-BADC-43BD85CB0FA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14E31072-3D43-478F-BADC-43BD85CB0FA6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D674B45E-E23A-41E7-B520-55B68C71C3B2}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://mytermmk.visualstudio.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Logger\\Logger.csproj
+		SccProjectName1 = Logger
+		SccLocalPath1 = Logger
+		SccProjectUniqueName2 = DataContext\\DataContext.csproj
+		SccProjectName2 = DataContext
+		SccLocalPath2 = DataContext
+		SccProjectUniqueName3 = MyTermMVC\\MyTermMVC.csproj
+		SccProjectName3 = MyTermMVC
+		SccLocalPath3 = MyTermMVC
+		SccProjectUniqueName4 = DataServices\\DataServices.csproj
+		SccProjectName4 = DataServices
+		SccLocalPath4 = DataServices
+		SccProjectUniqueName5 = MyTerm.Api\\MyTerm.Api.csproj
+		SccProjectName5 = MyTerm.Api
+		SccLocalPath5 = MyTerm.Api
+		SccProjectUniqueName6 = TestConsole\\TestConsole.csproj
+		SccProjectName6 = TestConsole
+		SccLocalPath6 = TestConsole
+	EndGlobalSection
+EndGlobal

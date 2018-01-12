@@ -1,0 +1,8 @@
+D:\Code\MyTerm\Logger\bin\Debug\Logger.dll.config
+D:\Code\MyTerm\Logger\bin\Debug\Logger.dll
+D:\Code\MyTerm\Logger\bin\Debug\Logger.pdb
+D:\Code\MyTerm\Logger\bin\Debug\log4net.dll
+D:\Code\MyTerm\Logger\bin\Debug\log4net.xml
+D:\Code\MyTerm\Logger\obj\Debug\Logger.csprojResolveAssemblyReference.cache
+D:\Code\MyTerm\Logger\obj\Debug\Logger.dll
+D:\Code\MyTerm\Logger\obj\Debug\Logger.pdb
